@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Image Upload Website</title>
+
+<style>
+
+body{
+font-family: Arial;
+text-align:center;
+margin-top:100px;
+}
+
+form{
+border:1px solid #ddd;
+padding:30px;
+width:300px;
+margin:auto;
+}
+
+button{
+padding:10px 20px;
+margin-top:10px;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<h2>Upload Image</h2>
+
+<form action="/upload" method="POST" enctype="multipart/form-data">
+
+<input type="file" name="image" required>
+
+<br><br>
+
+<button type="submit">Upload Image</button>
+
+</form>
+
+</body>
+</html>
